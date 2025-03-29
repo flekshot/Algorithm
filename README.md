@@ -1,9 +1,6 @@
 # EasyRecursionLab
 This is my Java project for recursion homework.
 
-## How to Use
-- Open it in IntelliJ IDEA.
-- Click Run on Main.java to see it work.
 
 ## What It Does
 1. Finds smallest number in a list
