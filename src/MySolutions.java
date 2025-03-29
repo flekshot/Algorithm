@@ -8,11 +8,7 @@ public class MySolutions {
         }
         // Compare the last number with the smallest of the rest
         int smaller = findSmallest(numbers, size - 1);
-        if (numbers[size - 1] < smaller) {
-            return numbers[size - 1];
-        } else {
-            return smaller;
-        }
+        return Math.min(numbers[size - 1], smaller);
         // Time: O(n) - we check each number once
     }
 
